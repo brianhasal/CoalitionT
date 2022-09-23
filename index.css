@@ -365,7 +365,6 @@ input:checked ~ .menu-content {
 
 .bg_rectangle_24 {
   background-color: rgb(65, 79, 107, 0.8);
-  /* left: 0; */
   width: 1600px;
   height: 195px;
 }
@@ -378,18 +377,6 @@ input:checked ~ .menu-content {
   overflow-x: scroll;
   gap: 10px;
   
-}
-
-
-.rad,
-.set {
-  border: 0;
-  display: none;
-}
-.images_by_4 {
-  padding-top: 12px;
-  display: flex;
-  justify-content: center;
 }
 
 .thumbnail_1 {
@@ -415,6 +402,20 @@ input:checked ~ .menu-content {
   overflow: hidden;
 }
 
+
+
+
+/* .rad,
+.set {
+  border: 0;
+  display: none;
+}
+.images_by_4 {
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+
 .rad:checked+.set {
   display: block;
   opacity: 1;
@@ -423,6 +424,7 @@ input:checked ~ .menu-content {
 .fssw {
   border: 0;
 }
+
 .switcher {
   display: flex;
   justify-content: center;
@@ -436,7 +438,7 @@ input:checked ~ .menu-content {
   padding: 3px 3px;
   margin: 3px;
   cursor: pointer;
-}
+} */
 
 
 
